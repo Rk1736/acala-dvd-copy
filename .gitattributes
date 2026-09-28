@@ -1,0 +1,15 @@
+# Do not edit manually
+*.json linguist-detectable=false
+
+*.svg text
+
+* text=auto
+*.sh text eol=lf
+**/*.go linguist-detectable
+
+vendor/* linguist-vendored
+
+public/** linguist-vendored
+
+*.md linguist-documentation
+public/**/*.html linguist-vendored
